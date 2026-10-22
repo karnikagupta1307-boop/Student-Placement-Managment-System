@@ -1,0 +1,16 @@
+﻿.gradle/
+.gradle-home/
+build/
+app/build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+
+build-*.log

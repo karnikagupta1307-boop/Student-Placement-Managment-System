@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NMIMS Hyderabad Placement Portal</string>
+    <string name="app_subtitle">Student Career &amp; Placement Management System</string>
+    <string name="institution_name">NMIMS Hyderabad</string>
+    <string name="institution_department">Placement &amp; Training Department</string>
+    <string name="demo_note">Presentation demo data only</string>
+</resources>

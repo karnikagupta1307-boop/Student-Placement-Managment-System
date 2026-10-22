@@ -1,0 +1,14 @@
+<resources>
+    <!-- Keep the portal in the light institutional theme even under system dark mode. -->
+    <style name="Base.Theme.Placement" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/surface</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="android:colorAccent">@color/primary</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+</resources>
