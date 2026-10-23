@@ -5,7 +5,7 @@ import android.app.*;import android.os.Bundle;import android.content.*;import an
 /** Shared native view helpers used by the student screens. */
 public abstract class BaseActivity extends AppCompatActivity {
  protected LinearLayout root,body; protected String title="PlaceMate";
- protected int blue=Color.rgb(200,16,46),navy=Color.rgb(158,16,40),ink=Color.rgb(32,33,36),muted=Color.rgb(98,102,109),bg=Color.rgb(247,247,248),line=Color.rgb(226,226,229),success=Color.rgb(33,134,83),warning=Color.rgb(183,121,31);
+ protected int blue=Color.rgb(200,16,46),navy=Color.rgb(158,16,40),ink=Color.rgb(32,33,36),muted=Color.rgb(107,114,128),bg=Color.rgb(245,246,248),line=Color.rgb(226,226,229),success=Color.rgb(33,136,56),warning=Color.rgb(230,167,0);
  protected abstract int layout();
  @Override protected void onCreate(Bundle b){super.onCreate(b);getWindow().setStatusBarColor(navy);getWindow().setNavigationBarColor(Color.WHITE);getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR);setContentView(layout());root=findViewById(R.id.screenRoot);root.setOrientation(LinearLayout.VERTICAL);root.setBackgroundColor(bg);render();}
  protected abstract void render();
